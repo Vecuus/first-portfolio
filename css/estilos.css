@@ -329,13 +329,13 @@ transition: 300ms;
 }
 
 .banner_text-data a{
-    color: white;
+    color: #69F1A1;
     font-weight: bold;
-    transition: color 300ms;
+    transition: 300ms;
 }
 
 .banner_text-data a:hover{
-    color: #69F1A1;
+    opacity: 0.6;
 }
 
 .banner_icon_book{
@@ -451,7 +451,7 @@ transition: 300ms;
         top: 70px;
         overflow: hidden;
         z-index: 10;
-        box-shadow: 0px 0px 30px -20px rgba(0,0,0,0.5);
+        box-shadow: 0px 0px 30px -20px rgba(0,0,0,0);
         transition: all 300ms;
     }
 
@@ -491,7 +491,7 @@ transition: 300ms;
     }
 }
 
-@media (max-width: 920px) {
+@media (max-width: 896px) {
     .text__information-cover{
         width: 100%;
     }
